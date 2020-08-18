@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/alexsk/mongoose-intl/issues"
   },
-  "homepage": "https://github.com/alexsk/mongoose-intl#readme"
+  "homepage": "https://github.com/alexsk/mongoose-intl#readme",
+  "dependencies": {
+    "accept-language-parser": "^1.5.0"
+  }
 }
