@@ -1,5 +1,5 @@
 {
-  "name": "@Neo-Zhixing/mongoose-intl",
+  "name": "@cytoid/mongoose-intl",
   "version": "3.1.3",
   "description": "Mongoose schema plugin for multilingual fields",
   "main": "lib/mongoose-intl.js",
@@ -24,13 +24,15 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Neo-Zhixing/mongoose-intl/issues"
+    "url": "https://github.com/cytoid/mongoose-intl/issues"
   },
-  "homepage": "https://github.com/Neo-Zhixing/mongoose-intl#readme",
+  "homepage": "https://github.com/cytoid/mongoose-intl#readme",
   "dependencies": {
     "accept-language-parser": "^1.5.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "packageManager": "yarn@1.22.22"
 }
